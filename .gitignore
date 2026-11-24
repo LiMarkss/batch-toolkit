@@ -1,0 +1,23 @@
+# build artifacts (the exe stays on disk, but is not committed)
+build/
+dist/
+*.spec
+assets/icon.ico
+
+# python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# local outputs
+samples/**/output/
+samples/**/split/
+rename_log_*.json
+
+# OS / editors
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,6 @@
+pillow>=10.0
+pypdf>=4.0
+sv-ttk>=2.6
+# dev / build
+pytest>=8.0
+pyinstaller>=6.0
